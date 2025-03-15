@@ -5,7 +5,7 @@ import { Record } from '../item-details/item-details';
 import ItemDetails from '../item-details';
 import './people-page.css';
 import SwapiService from "../../services/swapi-service";
-import Row from "../Row";
+import Row from "../row";
 import ErrorBoundary from "../error-boundary";
 
 export default class PeoplePage extends Component {
@@ -20,7 +20,6 @@ export default class PeoplePage extends Component {
     };
 
     render() {
-
         const {
             getPerson,
             getAllPeople,
